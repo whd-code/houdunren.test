@@ -1,0 +1,37 @@
+.admin {
+    background: url(/images/sky.jpg)no-repeat;
+    // background-size: 100% auto;
+    background-size: cover;
+   min-height:  100vh;
+   .quick-menu {
+        .logo {
+            img {
+                height: 4rem;
+            }
+        }
+        .menus {
+            a:hover {
+                opacity: 1;
+                text-decoration: none;
+            }
+            a {
+                width:8rem;
+                transition: 0.5s;
+                opacity: 0.5;
+                padding:1rem 2rem;
+                i {
+                    font-Size:1.5rem;
+                }
+            }
+        }
+   }
+   .admin-setting {
+       .bl-5 {
+           border-left: 0.3rem solid #555;
+       }
+       .system-menu {
+           width:8rem;
+           border:0.1rem solid #aaa
+       }
+   }
+}
